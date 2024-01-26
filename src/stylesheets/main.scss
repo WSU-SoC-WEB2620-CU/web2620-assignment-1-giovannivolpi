@@ -47,6 +47,15 @@ nav, footer{
     border-radius: 20px;
 }
 
+.click2{
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
 .click-search{
     background-color: lightgray;
     display: inline-block;
@@ -62,18 +71,14 @@ nav, footer{
 }
 
 .float-left{
-    width: 300px;
+    width: 400px;
     float: left;
 }
 
 img{
-    width: 300px;
     margin: 10px;
 }
 
-.float-left{
-    float: left;
-}
 
 .float-right{
     float: right;
@@ -106,7 +111,7 @@ footer{
 
 /*Smartphone screen*/
 
-@media all and (min-width: 576px){
+@media all and (max-width: 576px){
     html{
         font-size: 14px;
     }
