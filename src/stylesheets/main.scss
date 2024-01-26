@@ -1,3 +1,138 @@
 html{
-    font-size: 1px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+    font-size: 36px;
+}
+
+nav ul > li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav, footer{
+    background-color: lightgray;
+}
+
+.content{
+    float: right;
+    border-bottom: 1px solid lightgray; 
+    margin-bottom: 20px; 
+    padding-bottom: 20px;
+}
+
+.click{
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.click-search{
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+.float-left{
+    width: 300px;
+    float: left;
+}
+
+img{
+    width: 300px;
+    margin: 10px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.pages {
+    text-align: center; 
+}
+
+
+.click, .pages p {
+  display: inline-block;
+  margin: 0 5px; 
+}
+
+footer{
+   overflow: hidden;
+   padding: 20px;
+}
+
+.socials{
+    float: left;
+    word-spacing: 5px;
+}
+
+
+.rights{
+    float: right;
+}
+
+/*Smartphone screen*/
+
+@media all and (min-width: 576px){
+    html{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    nav ul > li{
+        font-size: 18px;
+    }
+
+    .float-left, .float-right, img{
+        float: none;
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+    .click-search{
+        display: none;
+    }
+    
+    .click2{
+        display: none;
+    }
+
+
+
 }
